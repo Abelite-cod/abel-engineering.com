@@ -9,6 +9,9 @@
   <meta name="author" content="Abel Okagbare" />
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -46,9 +49,11 @@
     <div class="about-text fade-in">
       <h2 class="h2head">About Me</h2>
       <p>
-        Software engineer building scalable web systems, automation pipelines, and ML-driven applications, with hands-on experience in React, Node.js, Python, and deploying production-ready solutions.
-        
-        Bachelor’s degree in Computer Science, with a strong foundation in algorithms, data structures, and software engineering principles.
+        Software engineer building scalable web systems,
+        automation pipelines, and ML-driven applications.
+        Experienced in delivering production-ready solutions
+        using modern frameworks and cloud-friendly tools.
+      </br>Bachelor’s degree in Computer Science, with a strong foundation in algorithms, data structures, and software engineering principles.
       </p>
     </div>
 
@@ -59,41 +64,107 @@
 </section>
 
 <!-- RESUME -->
-<section id="resume" class="section dark">
-  <div class="container">
-    <h2 class="h2head">Skills & Experience</h2>
+<section id="resume" class="resume-section">
+  <div class="resume-container">
 
-    <div class="cols">
-      <div>
-        <h3>Technical Skills</h3>
-        <ul class="skills">
-          <li>HTML / CSS / JavaScript <span style="width:95%"></span></li>
-          <li>React / Next.js <span style="width:90%"></span></li>
-          <li>Node.js / Express <span style="width:88%"></span></li>
-          <li>Python / Flask <span style="width:85%"></span></li>
-          <li>Docker / Git <span style="width:75%"></span></li>
-        </ul>
+    <!-- LEFT COLUMN -->
+    <div class="resume-column">
+      <h3>Technical Skills</h3>
+
+      <div class="skill">
+        <span>HTML / CSS / JavaScript</span>
+        <div class="bar"><div data-level="90"></div></div>
       </div>
 
-      <div>
-        <h3>Languages</h3>
-        <ul class="skills">
-          <li>English <span style="width:99%"></span></li>
-          <li>Italian <span style="width:50%"></span></li>
-        </ul>
+
+      <div class="skill">
+        <span>React / Next.js</span>
+        <div class="bar"><div data-level="85"></div></div>
       </div>
 
-      <div>
-        <h3>Experience</h3>
-        <p>
-          Built and deployed production websites, dashboards,
-          ML prototypes, and automation systems.
-          Available for freelance and contract work.
-        </p>
+      <div class="skill">
+        <span>Node.js / Express</span>
+        <div class="bar"><div data-level="80"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Python / Flask</span>
+        <div class="bar"><div data-level="85"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Docker / Git</span>
+        <div class="bar"><div data-level="75"></div></div>
+      </div>
+
+      <h3>Languages</h3>
+
+      <div class="skill">
+        <span>English</span>
+        <div class="bar"><div data-level="95"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Italian</span>
+        <div class="bar"><div data-level="70"></div></div>
       </div>
     </div>
+
+    <!-- CENTER COLUMN -->
+    <div class="resume-column center">
+      <h3>Experience</h3>
+
+      <div class="timeline">
+        <div class="item">
+          <span class="dot"></span>
+          <h4>Software Engineer</h4>
+          <p>
+            Built and deployed production websites, dashboards,
+            ML prototypes, and automation systems.
+          </p>
+        </div>
+
+        <div class="item">
+          <span class="dot"></span>
+          <h4>Freelance & Contract Work</h4>
+          <p>
+            Available for freelance and contract projects,
+            delivering scalable solutions.
+          </p>
+        </div>
+      </div>
+
+
+      <h3>Education</h3>
+      <p>
+        Bachelor’s Degree in Computer Science<br>
+        Strong foundation in algorithms, data structures,
+        and software engineering principles.
+      </p>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="resume-column">
+      <h3>What I Do</h3>
+      <ul>
+        <li>Full-Stack Web Development</li>
+        <li>Automation & Backend Systems</li>
+        <li>ML Prototypes & Integrations</li>
+        <li>API Design & Deployment</li>
+      </ul>
+
+      <h3>Core Strengths</h3>
+      <ul>
+        <li>Scalable Architecture</li>
+        <li>Clean & Maintainable Code</li>
+        <li>Problem Solving</li>
+        <li>Performance Optimization</li>
+      </ul>
+    </div>
+
   </div>
 </section>
+
 
 <!-- PORTFOLIO -->
 <section id="portfolio" class="section portfolio">
@@ -104,6 +175,55 @@
 </section>
 
 <!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+
+    <!-- Left info -->
+    <div class="contact-info">
+      <h2>Get in touch</h2>
+
+      <p><strong>Email:</strong><br>Okagbareabel@gmail.com</p>
+      <p><strong>Phone:</strong><br>+2347066142420</p>
+      <p>
+        <strong>Address:</strong><br>
+        404 Not Found Street, Suite 101<br>
+  Internet City, Cloud District<br>
+  Serving Clients Worldwide 🌍
+      </p>
+
+      <div class="socials">
+        <a href="mailto:abelitecodex@gmail.com"><i class="fab fa-gmail"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Right form -->
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="Your full name">
+        </div>
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" placeholder="Your email address">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Write something..."></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
 <section id="contact" class="section dark">
   <div class="container">
     <h2 class="h2head">Contact</h2>
@@ -115,9 +235,7 @@
   © 2025 Abel Okagbare
 
   <div class="footer-icons">
-    <a href="mailto:abelitecodex@gmail.com">✉</a>
-    <a href="https://github.com/" target="_blank">🐱</a>
-    <a href="https://linkedin.com/" target="_blank">in</a>
+    <a href="mailto:okagbareabel@gmail.com">✉</a>
   </div>
 </footer>
 

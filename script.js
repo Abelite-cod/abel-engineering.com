@@ -1,6 +1,11 @@
 // Scroll active nav
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav-link");
+document.querySelectorAll('.bar div').forEach(bar => {
+    const level = bar.getAttribute('data-level');
+    bar.style.width = level + '%';
+  });
+
 
 window.addEventListener("scroll", () => {
   let current = "";
@@ -28,7 +33,7 @@ const projects = [
   {
     title: "Brain Tumor Detection",
     desc: "YOLOv8-based MRI brain tumor detection system.",
-    img: "assets/project-brain.png",
+    img: "assets/project-brain.jpg",
     link: "projects/brain-tumor-detection.html"
   },
   {
