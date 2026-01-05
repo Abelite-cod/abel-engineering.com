@@ -171,7 +171,7 @@ a{text-decoration:none;color:inherit}
   background: #ffffff;;
   border-radius: 2px;
   position: relative;
-  transition: width 25s ease;
+  transition: width 45s ease;
 }
 .bar div::after {
   content: "";

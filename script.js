@@ -25,20 +25,26 @@ window.addEventListener("scroll", () => {
 // Projects (STATIC — GitHub Pages safe)
 const projects = [
   {
+    title: "Scalable Personal & Business Website",
+    desc: "Designed a fully responsive, high-performance website tailored for personal branding and business growth. Optimized for scalability, speed, and user engagement.",
+    img: "assets/project-web-dev.jpg",
+    link: "projects/ai-vision-dashboard.html"
+  },
+  {
     title: "AI Vision Dashboard",
-    desc: "Real-time object detection dashboard using YOLOv8.",
+    desc: "Live object detection dashboard using YOLOv8, Python, and Flask. Visualizes real-time analytics for monitoring systems.",
     img: "assets/project-ai-dashboard.png",
     link: "projects/ai-vision-dashboard.html"
   },
   {
     title: "Brain Tumor Detection",
-    desc: "YOLOv8-based MRI brain tumor detection system.",
+    desc: "Machine learning system integrated with a web interface for MRI image analysis and tumor detection.",
     img: "assets/project-brain.jpg",
     link: "projects/brain-tumor-detection.html"
   },
   {
     title: "Gym Rep Counter",
-    desc: "Computer vision-powered exercise rep counter.",
+    desc: "Real-time computer vision application that counts squats, push-ups, and bicep curls. Built with OpenCV & MediaPipe.",
     img: "assets/project-gym.png",
     link: "projects/gym-rep-counter.html"
   }
